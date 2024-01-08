@@ -1,0 +1,35 @@
+.containerHead{
+    min-width: 100%;
+    height: 3rem;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.countNotification{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.containerHead .title{
+    font-weight: 800;
+}
+.containerHead .count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--Blue-main);
+    padding: 3px 10px;
+    color: var(--White-main);
+    border-radius: 5px;
+    font-size: .8rem;
+}
+.containerHead .nav{
+    font-size: .9rem;
+    color: var(--Grayish-blue);
+    cursor: pointer;
+    transition: .2s;
+}
+.nav:hover{
+    color: var(--Blue-main);
+}

@@ -1,8 +1,17 @@
-
+import '../Sass/notification.scss'
+import HeadNotification from './HeadNotification'
+import ItemNotification from './ItemNotification'
 
 const Notification = () => {
   return (
-    <div>Notification</div>
+    <>
+        <div className="containerNotification">
+            <HeadNotification/>
+            <section className="contentNotification">
+                <ItemNotification/>
+            </section>
+        </div>
+    </>
   )
 }
 

@@ -1,6 +1,6 @@
 
 :root{
-  --Red-main: hsl(1, 90%, 64%);
+--Red-main: hsl(1, 90%, 64%);
 --Blue-main: hsl(219, 85%, 26%);
 --White-main: hsl(0, 0%, 100%);
 --Very-light-grayish-blue: hsl(210, 60%, 98%);
@@ -18,4 +18,5 @@ main{
   justify-content: center;
   align-items: center;
   background: var(--Very-light-grayish-blue);
+  
 }
