@@ -1,0 +1,79 @@
+.containerItem{
+    padding: 1rem;
+    display: flex;
+    gap: .5rem;
+    border-radius: 10px;
+    
+}
+.containerItem .contentItem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contentItem .contentText{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+}
+ .contentData{
+    display: flex;
+    gap: .3rem;
+    flex-direction: column;
+    padding: .5rem;
+}
+.containerItem.active{
+    background: var(--Light-grayish-blue-1);
+}
+ .name{
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s;
+}
+.name:hover{
+    color: var(--Blue-main);
+}
+ .description{
+    color: var(--Dark-grayish-blue);
+}
+ .title{
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s;
+}
+.title:hover{
+    color: var(--Blue-main);
+}
+.alertNotification{
+    width: 8px;
+    height: 8px;
+    background: var(--Red-main);
+    border-radius: 50%;
+}
+
+ .dateItem{
+    color: var(--Grayish-blue);
+}
+
+.messageItem{
+    width: 100%;
+    border: 1px solid var(--Light-grayish-blue-2);
+    color: var(--Grayish-blue);
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.messageItem:hover{
+    background: var(--Light-grayish-blue-1);
+}
+.avatar{
+    width:3rem;
+    height:3rem;
+}
+.chess{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
