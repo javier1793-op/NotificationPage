@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![Message page design](./src/img/Screenshot%202024-01-08%20at%2021-08-01%20Notification%20FrontMentor.png)
+![Message page design](./src/Img/Screenshot%202024-01-08%20at%2021-08-01%20Notification%20FrontMentor.png)
 
 
 ### Links
