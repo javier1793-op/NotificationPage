@@ -18,5 +18,11 @@ main{
   justify-content: center;
   align-items: center;
   background: var(--Very-light-grayish-blue);
-  
+  padding: 2rem;
+}
+@media (max-width:770px){
+  main{
+    padding: 0;
+  }
+
 }

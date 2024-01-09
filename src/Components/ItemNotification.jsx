@@ -18,10 +18,13 @@ const ItemNotification = ({
           <div className="dataItem">
             <div className="contentData ">
               <div className="contentText">
-                <span className="name">{name}</span>
+                <p className="paragraph">
+                  <span className="name">{name}</span>
                 <span className="description">{description}</span>
                 <span className="title">{title}</span>
+                </p>
                 {active && <span className="alertNotification"></span>}
+                
               </div>
 
               <div className="dateItem">{date}</div>
